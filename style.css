@@ -1,0 +1,146 @@
+.body{
+  margin:0;
+  height:100vh;
+  display:flex;     
+  justify-content: center;
+  align-items: center;        
+}
+.child{
+  background-color: #4070f4;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.photo{
+  border: none;
+  height: 125px;
+  border-radius: 75px;
+  margin-top: 45px;
+  display: flex;
+  border-style: solid;
+  padding: 2px;
+  background-clip: content-box;                                        /* new thing which i learn in this column */
+  box-shadow: inset 0 0 0 15px white;
+  border-color: #4070f4;
+  border-width: 2px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 375px;
+  width: 335px;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.1),10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.name{
+  display: flex;
+  margin-top: 30px; 
+  font-size: 25px;    
+  font-family: poppins; 
+  font-weight: 400;
+}
+.descrp{
+  font-family: poppins; 
+  font-style: 200;
+  color: rgb(101, 101, 101);
+  display: flex;
+  font-size: 13px;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 13px;
+}
+.button{
+  display: flex;
+  margin-top: 23px;
+}
+.info{
+  display: flex;
+  margin-top: 23px;
+  justify-content: space-around;
+}
+.subscribe{
+  width: 100px;
+  height: 33px;
+  background-color: #4070f4;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  margin-right: 25px;
+}
+.Message{
+  width: 100px;
+  height: 33px;
+  background-color: #4070f4;
+  border-radius: 16px;
+  border: none;
+  color: white;
+}
+.like{
+  margin: 0;
+  padding: 0;
+}
+.comment{
+  margin: 0;
+}
+.share{
+  margin: 0;
+}
+.fa-facebook{
+  font-size: 30px;
+  color: #316FF6;
+  margin-right: 16px;
+}
+.fa-square-twitter{
+  font-size: 30px;
+  color: #1DA1F2;
+  margin-right: 16px;
+}
+.fa-square-instagram{
+  font-size: 30px;
+  color: #cd486b;
+  margin-right: 16px;
+}
+.fa-square-youtube{
+  font-size: 30px;
+  color:  #CD201F;
+}
+.fa-heart{
+  font-size: 15px;
+  color: rgb(97, 97, 97);
+  margin-right: 5px;
+}
+.fa-comment{
+  font-size: 15px;
+  color: rgb(97, 97, 97);
+  margin-right: 5px;
+  margin-left: 20px;
+}
+.fa-share{
+  font-size: 15px;
+  color: rgb(97, 97, 97);
+  margin-right: 5px;
+  margin-left: 20px;
+}
+.bar{
+  color: rgb(97, 97, 97);    }
+.like{
+  color: rgb(97, 97, 97);
+  margin-right: 20px;
+}
+.comment{
+  color: rgb(97, 97, 97);
+  margin-right: 20px;
+}
+.share{
+  color: rgb(97, 97, 97);
+}
